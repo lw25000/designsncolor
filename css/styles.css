@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* HEADER */
+
 .wrapper{
     width: 100%;
     margin: auto;
@@ -124,6 +126,7 @@ img{
 }
 
 /*FOOTER*/
+
 .footercontainer{
     /* justify-content:baseline; */
     flex-direction: column;
@@ -305,7 +308,294 @@ form textarea{
     border-radius: 10px;
     width: 200px;
     transition: ease .20s;
+}
 
+/* FOOTER */
+
+.footercontainer{
+    /* justify-content:baseline; */
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 210px; 
+    color: white;
+    align-content: space-between;
+    background-color:#dc022b;
+}
+
+.social-icon{
+    display:flex;
+    justify-content:left;
+    
+    
+}
+
+.social-icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9; 
+}
+
+/* Hover Effects on Social Media*/
+.social-icon a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+.social-icon a:hover i{
+    color: whitesmoke;
+    transition: 0.5s;
 
 }
+
+.footernav{
+    margin: 30px 0;
+
+}
+
+.footernav ul{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+}
+
+.footernav ul li a{
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: .05s;
+
+}
+
+.footernave ul li a:hover{
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color:#dc022b;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.footerbottom p{
+    color: white;
+}
+
+
+/* ABOUT PAGE */
+
+/* HEADER */
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+   
+    display: flex;
+    position: relative;
+}
+
+.nav-area{
+    
+    list-style: none;
+    display:block;
+    
+}
+    
+.nav-area li{
+    
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+   
+   
+         
+}
+
+.nav-area li a{
+
+    color: #b03bcf;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+    /* display: flex; */
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 10%;
+    padding:30px 85px;
+
+    
+}
+
+.nav-area li a:hover{
+    background:#dc022b;
+    color:beige;
+   
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* PAGE CONTENT */
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #dc022b;
+}
+
+#container{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    max-width: fit-content;
+    background-color: black;
+}
+
+.image{
+    width: 600px;
+    height: 600px;
+
+   
+}
+
+ .paragraph1{
+    flex-direction: left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    word-spacing: 25%;
+    width: auto;
+    padding-left: 25px;
+    line-height: 2;
+    
+}
+
+
+.paragraph2{
+    flex-direction: right;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+   word-spacing: 25%;
+   width:auto;
+   padding-right: 25px;
+   line-height: 2;
+   
+}
+
+/* FOOTER */
+
+.footercontainer{
+    /* justify-content:baseline; */
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 210px; 
+    color: white;
+    align-content: space-between;
+    background-color:#dc022b;
+}
+
+.social-icon{
+    display:flex;
+    justify-content:left;
+    
+    
+}
+
+.social-icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9; 
+}
+
+/* Hover Effects on Social Media*/
+.social-icon a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+.social-icon a:hover i{
+    color: whitesmoke;
+    transition: 0.5s;
+
+}
+
+.footernav{
+    margin: 30px 0;
+
+}
+
+.footernav ul{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+}
+
+.footernav ul li a{
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: .05s;
+
+}
+
+.footernave ul li a:hover{
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color:#dc022b;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.footerbottom p{
+    color: white;
+}
+
+
+
 
